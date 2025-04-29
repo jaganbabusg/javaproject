@@ -50,12 +50,14 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student-Name = " + getStudentName() + ", Student-ID = " + getStudentID() + ", Student-Mobile = " + getStudentMobile()
+        return "Student-Name = " + getStudentName() + ", Student-ID = " + getStudentID() + ", Student-Mobile = "
+                + getStudentMobile()
                 + ", Student-Email = " + getStudentEmail();
     }
 
     public void displayStudent() {
-        System.out.println("Student-Name = " + getStudentName() + ", Student-ID = " + getStudentID() + ", Student-Mobile = " + getStudentMobile()
+        System.out.println("Student-Name = " + getStudentName() + ", Student-ID = " + getStudentID()
+                + ", Student-Mobile = " + getStudentMobile()
                 + ", Student-Email = " + getStudentEmail());
     }
 }
