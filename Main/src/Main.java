@@ -7,23 +7,23 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Initialize course list and Student list
-		CourseDetails.add(new Course("John Doe", "ST001", 12345678, "johndoe@gmail.com",
+		CourseDetails.add(new Course("John Doe", "ST100", 12345678, "johndoe@gmail.com",
 				"FSDC001", "UI/UX Design", "Completed", 100, true));
-		CourseDetails.add(new Course("John Doe", "ST001", 12345678, "johndoe@gmail.com",
+		CourseDetails.add(new Course("John Doe", "ST100", 12345678, "johndoe@gmail.com",
 				"FSDC002", "Java Programming", "In Progress", 50, false));
-		CourseDetails.add(new Course("John Doe", "ST001", 12345678, "johndoe@gmail.com",
+		CourseDetails.add(new Course("John Doe", "ST100", 12345678, "johndoe@gmail.com",
 				"FSDC003", "Communication Skills", "Not Started", 0, false));
-		CourseDetails.add(new Course("Jane Smith", "ST015", 12345678, "janesmith@gmail.com",
+		CourseDetails.add(new Course("Jane Smith", "ST200", 12345678, "janesmith@gmail.com",
 				"FSDC001", "UI/UX Design", "Completed", 100, true));
-		CourseDetails.add(new Course("Jane Smith", "ST015", 12345678, "janesmith@gmail.com",
+		CourseDetails.add(new Course("Jane Smith", "ST200", 12345678, "janesmith@gmail.com",
 				"FSDC002", "Java Programming", "In Progress", 80, false));
-		CourseDetails.add(new Course("Jane Smith", "ST015", 12345678, "janesmith@gmail.com",
+		CourseDetails.add(new Course("Jane Smith", "ST200", 12345678, "janesmith@gmail.com",
 				"FSDC003", "Communication Skills", "Not Started", 0, false));
-		CourseDetails.add(new Course("Alice Johnson", "ST099", 12345678, "alicejohnson@gmail.com",
+		CourseDetails.add(new Course("Alice Johnson", "ST300", 12345678, "alicejohnson@gmail.com",
 				"FSDC001", "UI/UX Design", "Completed", 65, false));
-		CourseDetails.add(new Course("Alice Johnson", "ST099", 12345678, "alicejohnson@gmail.com",
+		CourseDetails.add(new Course("Alice Johnson", "ST300", 12345678, "alicejohnson@gmail.com",
 				"FSDC002", "Java Programming", "In Progress", 30, false));
-		CourseDetails.add(new Course("Alice Johnson", "ST099", 12345678, "alicejohnson@gmail.com",
+		CourseDetails.add(new Course("Alice Johnson", "ST300", 12345678, "alicejohnson@gmail.com",
 				"FSDC003", "Communication Skills", "Not Started", 0, false));
 
 		while (true) {
@@ -257,6 +257,7 @@ public class Main {
 				course.setCourseStatus(courseStatus);
 				course.setStudentAttendance(studentAttendance);
 				course.setStudentCompletion(studentCompletion);
+				System.out.println(course.toString());
 				System.out.println("Modified successfully.");
 				System.out.print("Press Enter to go to Main Menu...");
 				SC.nextLine();

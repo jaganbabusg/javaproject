@@ -2,7 +2,7 @@ public class Course extends Student {
     protected String CourseID;
     protected String CourseName;
     protected String CourseStatus; // Completed, In Progress, Not Started
-    protected int StudentAttendance; // 0-100%
+    protected double StudentAttendance; // 0-100%
     protected boolean StudentCompletion; // (if course is completed and attendance is more than 75% then passed)
 
     public Course() {
@@ -43,11 +43,11 @@ public class Course extends Student {
         CourseStatus = courseStatus;
     }
 
-    public int getStudentAttendance() {
+    public double getStudentAttendance() {
         return StudentAttendance;
     }
 
-    public void setStudentAttendance(int studentAttendance) {
+    public void setStudentAttendance(double studentAttendance) {
         StudentAttendance = studentAttendance;
     }
 

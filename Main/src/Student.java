@@ -1,4 +1,4 @@
-public class Student {
+public abstract class Student {
 
     protected String StudentName;
     protected String StudentID;
