@@ -257,7 +257,10 @@ public class Main {
 				course.setCourseStatus(courseStatus);
 				course.setStudentAttendance(studentAttendance);
 				course.setStudentCompletion(studentCompletion);
+				System.out.println("-------------------------------------------------");
+				System.out.println("Modified Course Details:");
 				System.out.println(course.toString());
+				System.out.println("-------------------------------------------------");
 				System.out.println("Modified successfully.");
 				System.out.print("Press Enter to go to Main Menu...");
 				SC.nextLine();
